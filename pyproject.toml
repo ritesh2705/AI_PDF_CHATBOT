@@ -1,0 +1,17 @@
+[project]
+name = "ai-pdf-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai>=2.11.0",
+    "langchain>=1.3.12",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.2.7",
+    "langchain-pinecone>=0.2.13",
+    "langchain-text-splitters>=1.1.2",
+    "pypdf>=6.14.2",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.59.1",
+]

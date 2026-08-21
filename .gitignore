@@ -1,0 +1,95 @@
+# =====================================
+# AI PDF Chatbot - .gitignore
+# =====================================
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
+.env.*
+
+# -----------------------------
+# Uploaded Files
+# -----------------------------
+uploads/
+
+# -----------------------------
+# IDEs
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# Operating System Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Python Build Files
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# -----------------------------
+# Testing & Coverage
+# -----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Streamlit
+# -----------------------------
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# -----------------------------
+# Local Vector Databases
+# (Keep these ignored if you switch
+# from Pinecone to a local DB)
+# -----------------------------
+chroma_db/
+faiss_index/
+
+# -----------------------------
+# Logs & Temporary Files
+# -----------------------------
+*.log
+*.tmp
+*.bak
+
+# -----------------------------
+# Keep these tracked
+# -----------------------------
+!.gitignore
+!README.md
+!pyproject.toml
+!uv.lock
+!.python-version
